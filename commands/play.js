@@ -1,7 +1,6 @@
-const ytdl = require('ytdl-core')
-const ytsearch = require('yt-search')
+const ytdl = require('ytdl-core-discord')
+const yts = require('yt-search')
 const { SlashCommandBuilder } = require('@discordjs/builders')
-
 const queue = new Map()
 
 module.exports = {
